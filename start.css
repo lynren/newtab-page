@@ -5,8 +5,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.wrapper{
-    
+#wrapper{
 }
 
 .flex-container{
@@ -38,8 +37,8 @@ body{
 }
 
 .flex-item:hover{
-    background-color: yellow;
-    color: red;
+    background-color: rgba(46, 87, 27, 0.5);
+    border: 1px solid white;
 }
 
 .flex-item p{
