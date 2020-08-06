@@ -14,15 +14,16 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: 2em;
 }
 
 .flex-item{
     border: 1px solid rgba(0, 0, 0, 0.8);
     background-color: rgba(0, 0, 0, 0.25);
-    padding: 1em 1em;
+    padding: 1em 1em 0 1em;
     min-width: 5em;
+    color: white;
 }
 
 .flex-gap{
@@ -31,14 +32,13 @@ body{
 }
 
 .flex-container a{
-    font-size: 1.5em;
     color: white;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
-.flex-item:hover{
-    background-color: rgba(46, 87, 27, 0.5);
-    border: 1px solid white;
+a:hover{
+    color: rgb(226, 196, 64);
 }
 
 .flex-item p{
@@ -49,4 +49,24 @@ body{
 iframe{
     margin: auto auto;
     display: block;
+}
+
+.flex-item ul{
+    margin-top: 0.3em;
+}
+.flex-item li{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.flex-item ul, .flex-item li{ 
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.flex-item h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid white;
+    text-align: center;
 }
